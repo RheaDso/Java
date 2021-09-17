@@ -3,9 +3,13 @@ package com.company;
 public class day5 {
 
     public static void main(String[] args) {
-        char[] copyFrom = {'d', 'e', 'c', 'a', 'f', 'f', 'e', 'i', 'n', 'a', 't', 'e', 'd'};
-        char[] copyTo = new char[7];
-        System.arraycopy(copyFrom, 2, copyTo, 0, 7);
-        System.out.println(new String(copyTo));
+        int x;
+        for(x=0; x<3; x++)
+        {
+            int y = -1;
+            System.out.println("y is :"+y);
+            y=100;
+            System.out.println("y is now: "+y);
+        }
     }
 }
