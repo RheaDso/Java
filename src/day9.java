@@ -23,7 +23,7 @@ public class day9 {
                 for (i = 1; i <= n; i++) {
                     fact = fact * i;
                 }
-                System.out.print("Factorial of " + n);
+                System.out.print("Factorial value of " + n);
                 System.out.println(" is " + fact);
                 break;
             }
