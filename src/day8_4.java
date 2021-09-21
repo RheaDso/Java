@@ -11,7 +11,7 @@ public class day8_4 {
         s.sub4=67;
         s.sub5=83;
         double average = (s.sub1 + s.sub2 + s.sub3 + s.sub4 + s.sub5)/5;
-        System.out.println("Average marks = ");
+        System.out.println("Average marks of the student are ");
         System.out.println(average);
 
     }
