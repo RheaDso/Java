@@ -3,9 +3,14 @@ public class Day18_2
 
     public static void main(String[] args)
     {
-        char[] copyFrom = {'d', 'e', 'c', 'a', 'f', 'f', 'e', 'i', 'n', 'a', 't', 'e', 'd'};
-        char[] copyTo = new char[7];
-        System.arraycopy(copyFrom, 2, copyTo, 0, 7);
-        System.out.println(new String(copyTo));
+        int a=9, b=2, add, sub, mult, div;
+        add = a + b;
+        sub = a - b;
+        mult = a * b;
+        div = a / b;
+        System.out.println("\nAddition of the two numbers is "+add);
+        System.out.println("\nResult of subtraction is "+sub);
+        System.out.println("\nMultiplication of the two numbers is "+mult);
+        System.out.println("\nResult of division is "+div);
     }
 }

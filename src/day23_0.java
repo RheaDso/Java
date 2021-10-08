@@ -5,9 +5,9 @@ public class day23_0 {
         for(i=1; i<=100; i++)
 
             if (i%3==0)
-                System.out.println("Rhea"+i);
+                System.out.println("Rhea");
             else if(i%5==0)
-                System.out.println("Dsouza"+i);
+                System.out.println("Dsouza");
             else
                 System.out.println(""+i);
     }

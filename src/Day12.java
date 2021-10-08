@@ -2,10 +2,10 @@ public class Day12 {
 
     public static void main(String[] args)
     {
-        int number=20;
-        switch(number)
+        int month=20;
+        switch(month)
         {
-            case 10:
+            case 1:
                 System.out.println("10");
                 break;
 
