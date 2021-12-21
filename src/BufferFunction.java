@@ -3,8 +3,8 @@
 public class BufferFunction {
 
     public static void main(String[] args) {
-        StringBuffer rd=new StringBuffer("Rhea ");
-        rd.append("Dsouza");  //append
+        StringBuffer rd=new StringBuffer("Stefan ");
+        rd.append("Salvatore");  //append
         System.out.println(rd);
 
         System.out.println("--------------------------");
@@ -44,9 +44,9 @@ public class BufferFunction {
 
         StringBuffer sb=new StringBuffer();
         System.out.println(sb.capacity());
-        sb.append("Hello");
+        sb.append("Hello Brother");
         System.out.println(sb.capacity());
-        sb.append("java is my favourite language");
+        sb.append("Vampire Diaries");
         System.out.println(sb.capacity());
         sb.ensureCapacity(10);
         System.out.println(sb.capacity());

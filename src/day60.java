@@ -1,23 +1,25 @@
-class Rent{
+class Rent
+{
    int Rent_Amount;
    int Tax;
-   int Total_rent;
 
    Rent() {
-
    }
 
-   Rent(int RA, int T){
+   Rent(int RA, int T)
+   {
        Rent_Amount = RA;
        Tax = T;
        System.out.println("Total Rent is " + (Rent_Amount + Tax));
    }
 }
-class Owner extends Rent{
+class Owner extends Rent
+{
     int Amount;
     int Maintenance;
 
-    Owner(int A, int M){
+    Owner(int A, int M)
+    {
         Amount = A;
         Maintenance = M;
 
@@ -30,7 +32,8 @@ class Renter extends Rent {
     int Electricity_Bill;
     int Total_Amt;
 
-    Renter(int P, int GB, int EB) {
+    Renter(int P, int GB, int EB)
+    {
         Price = P;
         Gas_Bill = GB;
         Electricity_Bill = EB;
@@ -39,9 +42,10 @@ class Renter extends Rent {
 }
 public class day60 {
 
-    public static void main(String[] args) {
-        Rent R1 = new Rent(25000, 2000);
-        Owner O1 = new Owner(25000, 5000);
-        Renter R2 = new Renter(25000, 800, 2480);
+    public static void main(String[] args)
+    {
+        Rent R1 = new Rent(25000 , 2000);
+        Owner O1 = new Owner(25000 , 5000);
+        Renter R2 = new Renter(25000 , 800 , 2480);
     }
 }

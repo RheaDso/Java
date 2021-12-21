@@ -1,9 +1,11 @@
-interface Vehicle{
+interface Vehicle
+{
     void Engine();
     void Gear();
     void Wheels();
 }
-class Bicycles implements Vehicle{
+class Bicycles implements Vehicle
+{
     @Override
     public void Wheels()
     {

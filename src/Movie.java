@@ -28,6 +28,5 @@ public class Movie {
     public static void main(String[] args) {
         EndGame eg = new EndGame(210, 50);
         Food f = new Food(120, 90);
-
     }
 }

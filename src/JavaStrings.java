@@ -1,7 +1,7 @@
 public class JavaStrings {
 
     public static void main(String[] args) {
-        String s1="RHEA";
+        String s1="RHEA  ";
         String s2="Dsouza";
         String s3="Wednesday";
         String s4="DBIT";
